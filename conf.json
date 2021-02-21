@@ -1,0 +1,34 @@
+{
+  "name": "hw0",
+  "print_output": false,
+  "tests": [
+    {
+      "name": "build",
+      "cmd": "make addition",
+      "input": "",
+      "expected": "",
+      "points": "0.2"
+    },
+    {
+      "name": "add_neg",
+      "cmd": "./addition",
+      "input": "-3\n-5",
+      "expected": "Sum: -8\n",
+      "points": "0.3"
+    },
+    {
+      "name": "add_small",
+      "cmd": "./addition",
+      "input": "1\n2",
+      "expected": "Sum: 3\n",
+      "points": "0.2"
+    },
+    {
+      "name": "add_bignum",
+      "cmd": "./addition",
+      "input": "65243\n83798",
+      "expected": "Sum: 149041\n",
+      "points": "0.3"
+    }
+  ]
+}
