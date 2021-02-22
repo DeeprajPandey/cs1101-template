@@ -84,6 +84,7 @@ for test in config["tests"]:
             )
     else:
         tprnt("FAIL")
+        print(colored("Error: ", "red") + "{}\n".format(output))
     cprint("." * 19, "yellow")
 
 cprint("-" * 31, "yellow")
